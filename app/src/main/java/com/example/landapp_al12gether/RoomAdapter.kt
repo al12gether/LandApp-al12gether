@@ -10,7 +10,7 @@ import com.example.landapp_al12gether.datas.Room
 
 class RoomAdapter(
     val mContext: Context,
-    val resId: LocusId: Int,
+    val resId: Int,
     val mList: ArrayList<Room>) : ArrayAdapter<Room>(mContext, resId, mList) {
 
     val inflater = LayoutInflater.from(mContext)
